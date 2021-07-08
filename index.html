@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,22 +10,28 @@
     <link rel="stylesheet" type="text/css" href="./style/common.css">
     <link rel="stylesheet" type="text/css" href="./style/index.css">
 </head>
+
 <body>
     <video autoplay muted loop id="background">
         <source src="./media/index/backMountain.mp4" type="video/mp4">
     </video>
-    <div id="portada">
+    <div id="portada" class="padding-n">
         <div id="portada-container">
-            <header>
-                <h1>IES Isaac Peral</h1>
+            <header id="portada-container-header" class="flex-vw flex-a-left">
+                <img src="./media/iesIsaacPeral.svg" id="portada-container-header-logo">
+                <h1 id="portada-container-header-t">IES Isaac Peral</h1>
             </header>
-            <div id="portada-container-contenido">
-
+            <div id="portada-container-contenido" class="flex-vw flex-a-left">
+                <p id="portada-container-contenido-t" class="w-75">Nuestro objetivo: Conseguir que los alumnos se formen en los principios de convivencia democrática y
+                    respeto mutuo,
+                    alcancen el pleno desarrollo de su personalidad y adquieran hábitos para su formación intelectual.
+                </p>
             </div>
         </div>
     </div>
-    <div id="blog">
-
+    <div id="blog" class="padding-n">
+        <h1>Últimas entradas</h1>
     </div>
 </body>
+
 </html>

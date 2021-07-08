@@ -1,21 +1,44 @@
-#portada{
-    overflow: hidden;
-    height: 100vh;
-    padding: 5vh 10vh;
+#portada {
+  overflow: hidden;
+  height: 100vh;
+  color: white;
 }
-#background{
-    filter: brightness(0.5);
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-height: 100%;
-    min-width: 100%;
-    z-index: -100;
+#background {
+  filter: brightness(0.45);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-height: 100%;
+  min-width: 100%;
+  z-index: -100;
 }
-#blog{
-    height: 50vh;
+#portada-container {
+  height: max-content;
+}
+#portada-container-contenido {
+  height: 50vh;
+}
+#blog {
+  height: 50vh;
+  width: 100%;
+  background-color: white;
+  z-index: 100;
+}
+
+/* Pantalla pequeña */
+@media (max-width: 1440px) {
+  #portada-container-contenido-t {
     width: 100%;
-    background-color: white;
-    z-index: 100;
-    padding: 50px 100px;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+}
+
+/* Movil */
+@media (max-width: 425px) {
+  #portada-container-header-t {
+    display: none;
+  }
 }

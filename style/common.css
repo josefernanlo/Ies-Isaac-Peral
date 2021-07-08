@@ -1,10 +1,122 @@
-html, body{
-    min-height: 100vh;
-    padding: 0px;
-    margin: 0px;
+html,
+body {
+  min-height: 100vh;
+  padding: 0px;
+  margin: 0px;
 }
-*{
-    box-sizing:border-box;
-    -moz-box-sizing:border-box; /* Firefox */ 
-    -webkit-box-sizing:border-box; /* Safari */
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box; /* Firefox */
+  -webkit-box-sizing: border-box; /* Safari */
+  transition: all 0.5s;
+}
+
+/*Padding*/
+.padding-n {
+  padding: 5vh 10vh;
+}
+
+/*Fuentes*/
+@font-face {
+  font-family: "Roboto";
+  src: url("./fonts/Roboto-Regular.ttf"); /* IE9 Compat Modes */
+  src: url("./fonts/Roboto-Regular.ttf") format("truetype"); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: "Roboto-medium";
+  src: url("./fonts/Roboto-Medium.ttf");
+  src: url("./fonts/Roboto-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-bold";
+  src: url("./fonts/Roboto-Bold.ttf");
+  src: url("./fonts/Roboto-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-black";
+  src: url("./fonts/Roboto-Black.ttf");
+  src: url("./fonts/Roboto-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-thin";
+  src: url("./fonts/Roboto-Thin.ttf");
+  src: url("./fonts/Roboto-Thin.ttf") format("truetype");
+}
+
+/* Header */
+#portada-container-header-logo {
+  width: 20vh;
+}
+
+#portada-container-header {
+}
+
+/* Flex */
+
+.flex-vw {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-a-left {
+  justify-content: left;
+}
+
+.flex-a-right {
+  justify-content: right;
+}
+
+/* Anchos */
+.w-50 {
+  width: 50%;
+}
+
+.w-75 {
+    width: 75%;
+}
+/* Texto */
+h1 {
+  font-family: "Roboto-bold";
+  font-size: 70px;
+}
+
+p {
+  font-family: "Roboto-thin";
+  font-size: 50px;
+}
+
+/* Pantalla pequeña */
+@media (max-width: 1440px) {
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    h1{
+        font-size: 50px;
+    }
+
+    .padding-n {
+        padding: 2.5vh 5vh;
+    }
+
+    p {
+        font-size: 35px;
+    }
+}
+
+/* Movil */
+@media (max-width: 425px) {
+    h1{
+        font-size: 35px;
+    }
+    .padding-n {
+        padding: 1.5vh 2vh;
+    }
+    p {
+        font-size: 25px;
+    }
 }

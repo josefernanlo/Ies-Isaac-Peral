@@ -13,15 +13,21 @@
   z-index: -100;
 }
 #portada-container {
-  height: max-content;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
-#portada-container-contenido {
-  height: 50vh;
+
+#portada-container-header-t{
+  margin-top: 0px;
 }
+
 #blog {
   height: 50vh;
   width: 100%;
-  background-color: white;
+  background: #1488CC;
+  background: linear-gradient(to right, rgba(43, 50, 178, 1), rgba(20, 136, 204, 1));
   z-index: 100;
 }
 
@@ -34,11 +40,19 @@
 
 /* Tablet */
 @media (max-width: 768px) {
+
 }
 
 /* Movil */
-@media (max-width: 425px) {
-  #portada-container-header-t {
-    display: none;
+@media (max-width: 450px) {
+  #container-buttons{
+    display: flex;
+    flex-direction: column;
   }
+
+  #container-buttons button{
+    width: 100%;
+    margin: 10px 0px;
+  }
+
 }

@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IES Isaac Peral</title>
+    <script src="./js/jquery-3.6.0.js"></script>
     <script src="./js/index.js"></script>
     <link rel="stylesheet" type="text/css" href="./style/common.css">
     <link rel="stylesheet" type="text/css" href="./style/index.css">
@@ -17,15 +18,63 @@
     </video>
     <div id="portada" class="padding-n">
         <div id="portada-container">
-            <header id="portada-container-header" class="flex-vw flex-a-left">
+            <header id="portada-container-header" class="flex-vw flex-space">
                 <img src="./media/iesIsaacPeral.svg" id="portada-container-header-logo">
-                <h1 id="portada-container-header-t">IES Isaac Peral</h1>
+                <div id="menu">
+                    <a href="#">
+                        El centro
+                    </a>
+                    <a href="#">
+                        Departamentos
+                    </a>
+                    <a href="#">
+                        Blog
+                    </a>
+                    <a href="#">
+                        Noticias
+                    </a>
+                    <a href="#">
+                        AMPA
+                    </a>
+                </div>
+                <div id="menumovil">
+                </div>
             </header>
-            <div id="portada-container-contenido" class="flex-vw flex-a-left">
-                <p id="portada-container-contenido-t" class="w-75">Nuestro objetivo: Conseguir que los alumnos se formen en los principios de convivencia democrática y
+            <div id="menumovil-items">
+                <div id="items">
+                    <a href="#">
+                        El centro
+                    </a>
+                    <a href="#">
+                        Departamentos
+                    </a>
+                    <a href="#">
+                        Blog
+                    </a>
+                    <a href="#">
+                        Noticias
+                    </a>
+                    <a href="#">
+                        AMPA
+                    </a>
+                </div>
+            </div>
+            <div id="portada-container-contenido" class="flex-a-left flex-column">
+                <h1 id="portada-container-header-t">IES Isaac Peral</h1>
+                <p id="portada-container-contenido-t" class="w-75">Nuestro objetivo: Conseguir que los alumnos se formen
+                    en los principios de convivencia democrática y
                     respeto mutuo,
                     alcancen el pleno desarrollo de su personalidad y adquieran hábitos para su formación intelectual.
                 </p>
+                <div id="container-buttons">
+                    <button>Aula Virtual</button>
+                    <button>Trámites</button>
+                </div>
+            </div>
+            <div class="arrow bounce">
+                <a href="#">
+                    <img src="./media/icons/arrow-down.svg" class="arrow" id="">
+                </a>
             </div>
         </div>
     </div>

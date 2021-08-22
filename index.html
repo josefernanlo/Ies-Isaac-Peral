@@ -13,9 +13,8 @@
 </head>
 
 <body>
-    <video autoplay muted loop id="background">
-        <source src="./media/index/backMountain.mp4" type="video/mp4">
-    </video>
+    <div id="background">
+    </div>
     <div id="portada" class="padding-n">
         <div id="portada-container">
             <header id="portada-container-header" class="flex-vw flex-space">
@@ -26,9 +25,6 @@
                     </a>
                     <a href="#">
                         Departamentos
-                    </a>
-                    <a href="#">
-                        Blog
                     </a>
                     <a href="#">
                         Noticias
@@ -49,9 +45,6 @@
                         Departamentos
                     </a>
                     <a href="#">
-                        Blog
-                    </a>
-                    <a href="#">
                         Noticias
                     </a>
                     <a href="#">
@@ -60,12 +53,7 @@
                 </div>
             </div>
             <div id="portada-container-contenido" class="flex-a-left flex-column">
-                <h1 id="portada-container-header-t">IES Isaac Peral</h1>
-                <p id="portada-container-contenido-t" class="w-75">Nuestro objetivo: Conseguir que los alumnos se formen
-                    en los principios de convivencia democrática y
-                    respeto mutuo,
-                    alcancen el pleno desarrollo de su personalidad y adquieran hábitos para su formación intelectual.
-                </p>
+                <h1 id="portada-container-header-t"><span id="yellow-co">IES</span> Isaac Peral</h1>
                 <div id="container-buttons">
                     <button>Aula Virtual</button>
                     <button>Trámites</button>
@@ -79,7 +67,20 @@
         </div>
     </div>
     <div id="blog" class="padding-n">
-        <h1>Últimas entradas</h1>
+        <h1>Últimas Noticias</h1>
+        <div id="posts">
+            <div class="postPortadaContainer">
+                <div class="postPortadaContainerInterior">
+                    <div class="postPortadaContainerTitle">
+                        <h3>Título</h3>
+                    </div>
+                    <div class="postPortadaContainerButton">
+                        <p>Descripción</p>
+                        <button>Leer más</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 

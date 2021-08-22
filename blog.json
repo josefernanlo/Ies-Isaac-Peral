@@ -1,0 +1,19 @@
+{
+    "entradas": [
+        {
+            "titulo": "Globlal Classrooms",
+            "autor": "Consejería de Educación y Juventud",
+            "fecha": "04-12-2021",
+            "imagenPortada" : "blog/portadas/20211204-GlobalClassroom.png",
+            "textoPortada" : "",
+            "imagenDestacada": "",
+            "etiquetas": "",
+            "contenido": "",
+            "contenidoIngles" : ""
+        },
+        {
+
+        }
+
+    ]
+}

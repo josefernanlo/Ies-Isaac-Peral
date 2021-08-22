@@ -1,4 +1,19 @@
 $(window).on('load', function () {
+    // Cargamos las entradas 
+    const respuesta = $.getJSON( "./blog.json", function() {
+      })
+        .done(function() {
+          const posts = respuesta.responseJSON.entradas;
+          for (let i = 0; i < posts.length ; i+=1){
+              
+          }
+        })
+        .fail(function() {
+          console.log( "error" );
+        })
+
+
+
     $('#menumovil').on('click', function () {
         // Esta función se encarga de mostrar el menú del movil
         menuMovil();

@@ -137,6 +137,10 @@ h1 {
   font-family: "Roboto-bold";
   font-size: 70px;
 }
+h3{
+  font-family: "Roboto-bold";
+  font-size: 35px;
+}
 
 p {
   font-family: "Roboto-thin";
@@ -178,14 +182,12 @@ p {
 
 #menumovil-items{
   display: none;
-  background-color : white;
   border-radius: 10px;
   flex-direction: column;
 }
 
 .menumovil-show{
   height: fit-content !important;
-  background-color: white;
   border-radius: 10px;
   display: inline !important;
   flex-direction: column;
@@ -214,15 +216,15 @@ p {
 #items a {
   text-decoration: none;
   font-family: 'Roboto-thin';
-  color: black;
-  border-top: solid 1px black;
+  color: white;
+  border-top: solid 1px white;
   width: 80%;
   padding: 10px;
   text-align: center;
 }
 
 #items a:last-child {
-  border-bottom: solid 1px black;
+  border-bottom: solid 1px white;
 }
 
 /* Pantalla pequeña */
